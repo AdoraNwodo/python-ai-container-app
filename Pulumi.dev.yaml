@@ -1,0 +1,6 @@
+config:
+  azure-native:location: WestUS
+  python-ai-container-app:appPath: app
+  python-ai-container-app:containerPort: "80"
+  python-ai-container-app:cpu: "1"
+  python-ai-container-app:memory: "2"
