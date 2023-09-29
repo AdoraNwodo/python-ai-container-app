@@ -77,7 +77,7 @@ container_group = containerinstance.ContainerGroup(
         containers=[
             containerinstance.ContainerArgs(
                 name=image_name,
-                image=image.image_name,
+                image=image.repo_digest,
                 ports=[
                     containerinstance.ContainerPortArgs(
                         port=container_port,
